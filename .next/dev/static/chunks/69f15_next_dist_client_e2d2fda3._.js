@@ -131,7 +131,7 @@ Object.defineProperty(exports, "appBootstrap", {
 });
 const _assetprefix = __turbopack_context__.r("[project]/Development/code/personal/portfolio/portfolio1/node_modules/next/dist/client/asset-prefix.js [app-client] (ecmascript)");
 const _setattributesfromprops = __turbopack_context__.r("[project]/Development/code/personal/portfolio/portfolio1/node_modules/next/dist/client/set-attributes-from-props.js [app-client] (ecmascript)");
-const version = "16.1.0";
+const version = "16.1.3";
 window.next = {
     version,
     appDir: true
@@ -4088,6 +4088,8 @@ function deleteFromLru(deleted) {
                 head = null;
             } else {
                 head = next;
+                prev.next = next;
+                next.prev = prev;
             }
         } else {
             prev.next = next;
@@ -6370,7 +6372,7 @@ var EntryStatus = /*#__PURE__*/ function(EntryStatus) {
     EntryStatus[EntryStatus["Rejected"] = 3] = "Rejected";
     return EntryStatus;
 }({});
-const isOutputExportMode = ("TURBOPACK compile-time value", "development") === 'production' && ("TURBOPACK compile-time value", void 0) === 'export';
+const isOutputExportMode = ("TURBOPACK compile-time value", "development") === 'production' && ("TURBOPACK compile-time value", "export") === 'export';
 const MetadataOnlyRequestTree = [
     '',
     {},

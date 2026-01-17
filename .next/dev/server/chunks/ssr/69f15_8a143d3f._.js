@@ -2629,6 +2629,8 @@ function deleteFromLru(deleted) {
                 head = null;
             } else {
                 head = next;
+                prev.next = next;
+                next.prev = prev;
             }
         } else {
             prev.next = next;
@@ -5567,7 +5569,7 @@ var EntryStatus = /*#__PURE__*/ function(EntryStatus) {
     EntryStatus[EntryStatus["Rejected"] = 3] = "Rejected";
     return EntryStatus;
 }({});
-const isOutputExportMode = ("TURBOPACK compile-time value", "development") === 'production' && ("TURBOPACK compile-time value", void 0) === 'export';
+const isOutputExportMode = ("TURBOPACK compile-time value", "development") === 'production' && ("TURBOPACK compile-time value", "export") === 'export';
 const MetadataOnlyRequestTree = [
     '',
     {},
