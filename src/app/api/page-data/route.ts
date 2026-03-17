@@ -51,11 +51,6 @@ const educationData = [
         date: "Aug 2025 - Apr 2026",
         title: "Full Stack Software Engineering Certificate",
         subtitle: "Moringa School"
-    },
-    {
-        date: "Jan 2020 - Mar 2020",
-        title: "Front-End Web Development Bootcamp",
-        subtitle: "General Assembly — New York, NY"
     }
 ];
 
@@ -63,7 +58,7 @@ const educationData = [
 const projectOverview = {
     caseStudies: [
         { name: "Exploring Game-Based Learning in Japanese Language Education: A PC-Based Application Approach", url: "https://www.researchgate.net/publication/401193392_Exploring_Game-Based_Learning_in_Japanese_Language_Education_A_PC-Based_Application_Approach?_tp=eyJjb250ZXh0Ijp7InBhZ2UiOiJwcm9maWxlIiwicHJldmlvdXNQYWdlIjpudWxsLCJwb3NpdGlvbiI6InBhZ2VDb250ZW50In19" },
-        { name: "ScoutHire", url: "#" },
+        // { name: "ScoutHire", url: "#" },
     ],
     sideProjects: [
         { name: "RentEase", url: "https://renteasekenya.netlify.app/" },
