@@ -43,14 +43,14 @@ const experienceData = [
 
 const educationData = [
     {
-        date: "Sep 2015 - May 2019",
+        date: "Jul 2018 - Oct 2022",
         title: "Bsc. in Business Information Technology",
-        subtitle: "Pratt Institute — Brooklyn, NY"
+        subtitle: "Strathmore University"
     },
     {
-        date: "Mar 2021 - Aug 2021",
+        date: "Aug 2025 - Apr 2026",
         title: "Full Stack Software Engineering Certificate",
-        subtitle: "Google UX Design - Coursera"
+        subtitle: "Moringa School"
     },
     {
         date: "Jan 2020 - Mar 2020",
@@ -62,14 +62,14 @@ const educationData = [
 
 const projectOverview = {
     caseStudies: [
-        { name: "Wellnest", url: "#" },
+        { name: "Exploring Game-Based Learning in Japanese Language Education: A PC-Based Application Approach", url: "https://www.researchgate.net/publication/401193392_Exploring_Game-Based_Learning_in_Japanese_Language_Education_A_PC-Based_Application_Approach?_tp=eyJjb250ZXh0Ijp7InBhZ2UiOiJwcm9maWxlIiwicHJldmlvdXNQYWdlIjpudWxsLCJwb3NpdGlvbiI6InBhZ2VDb250ZW50In19" },
         { name: "ScoutHire", url: "#" },
     ],
     sideProjects: [
         { name: "RentEase", url: "https://renteasekenya.netlify.app/" },
         { name: "GoShort", url: "https://github.com/sjmanyarkiy/GoShort" },
-        { name: "OrbitPay Mobile App", comingSoon: true },
-        { name: "Siteflow Page Builder", comingSoon: true },
+        { name: "FinTrack", comingSoon: true },
+        { name: "Hanashitai", comingSoon: true },
     ]
 };
 

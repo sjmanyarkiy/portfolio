@@ -16,7 +16,7 @@ const AboutMe = () => {
                         <div className="flex flex-col gap-4">
                             <p className="text-sm tracking-[2px] text-primary uppercase font-medium">About Me</p>
                             <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-[32px]">Hey there. I'm Sandra — Software Engineer based in Nairobi, Kenya, currently <span className="bg-[linear-gradient(90deg,_rgba(243,202,77,0.4)_0%,_rgba(243,202,77,0.05)_100%)]">creating real-word scalable solutions </span> </h2>
-                            <h5 className="text-secondary font-normal">Previously at eProd Solutions Limited, and creator of DesignKit and MentalWell.</h5>
+                            {/* <h5 className="text-secondary font-normal">Previously at eProd Solutions Limited, and creator of DesignKit and MentalWell.</h5> */}
                         </div>
                         <div className="flex flex-col gap-4">
                             <p className="text-sm text-primary uppercase font-medium">Services</p>

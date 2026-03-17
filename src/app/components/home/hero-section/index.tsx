@@ -5,9 +5,9 @@ import { Button } from "@/components/ui/button";
 const HeroSection = () => {
     const socialIcon = [
         {
-            img: "/images/icon/twitter-icon.svg",
-            href: "#!",
-            icon: "Twitter"
+            img: "/images/icon/github-icon.svg",
+            href: "https://github.com/sjmanyarkiy",
+            icon: "Github"
         },
         {
             img: "/images/icon/behance-icon.svg",
